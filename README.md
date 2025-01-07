@@ -4,7 +4,7 @@ This repository contains the assets and materials used for the creation of the v
 Programming.
 
 ## Video uploaded to YouTube
-[Link to the video]()
+[Link to the video](https://youtu.be/IVwsBGGgouA)
 
 ## Materials
 - [VS project with .cs files](oopconcepts)
