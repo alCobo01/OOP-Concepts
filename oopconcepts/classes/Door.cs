@@ -4,6 +4,8 @@ namespace oopconcepts
 {
     public class Door
     {
+        public virtual void Open() => Console.WriteLine("The door opens.");
+
         //Attributes
         public string Material { get; set; }
         public string Color { get; set; }
@@ -23,7 +25,8 @@ namespace oopconcepts
         }
 
         //Methods
-        public void Open() => Console.WriteLine("The door is open");
+        
+        public static void Open(int password) => Console.WriteLine($"The door opens with the password {password}.");
         public void Close() => Console.WriteLine("The door is closed");
     }
 }
