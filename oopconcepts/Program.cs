@@ -6,11 +6,11 @@ namespace oopconcepts
     {
         public static void Main()
         {
-            Door metalicDoor = new Door("Metal", "Gray");
-            SlidingDoor woodenSlidingDoor = new SlidingDoor("Wood", "Brown", true);
+            Door door = new Door();
+            SlidingDoor slidingDoor = new SlidingDoor();
 
-            Console.WriteLine($"Is door 1 made of wood? {HelperMethods.IsMadeOfWood(metalicDoor)}");
-            Console.WriteLine($"Is door 2 made of wood? {HelperMethods.IsMadeOfWood(woodenSlidingDoor)}");
+            door.Open();
+            slidingDoor.Open();
         }
     }
 }
